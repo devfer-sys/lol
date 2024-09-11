@@ -1,0 +1,56 @@
+@media screen and (max-width: 800px){
+  /* {
+    margin: 0px;
+    padding: 0px;
+  } */
+
+  /* font-family:Roboto,Arial,sans-serif;
+#231F20 fondo gris de terminal 1
+#EDE9DD blanco terminal 1 */
+
+body {
+background: #D8DCDB;
+}
+
+.container {
+padding: 5%;
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+input:valid {
+border-color: rgb(4, 126, 4);
+}
+
+input:invalid {
+border-color: rgb(148, 3, 3);
+}
+
+h1 {
+text-align: center;
+}
+
+#player{
+align-content: center;
+width: 100%;
+max-width: 1000px;
+}
+
+.user-photo {
+width: 100px;
+}
+
+.logo {
+font-size: 250%;
+}
+
+.explanation-camera {
+text-align: center;
+font-size: 90%;
+letter-spacing: -0.7px;
+margin-bottom: -30px;
+}
+}
+

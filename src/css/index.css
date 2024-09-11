@@ -1,0 +1,42 @@
+body {
+background-color: #000000;
+}
+header{
+    height: 100px;
+    display: flex;
+    padding: 30px 20px;
+    background-color: #000000;
+}
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.imggif{
+    background-color: black;
+    /* width: 70%; */
+    box-sizing: border-box;
+    height: auto;
+}
+p{
+    color: #EDE9DD;
+    font-family:Roboto,Arial,sans-serif;
+    font-size: 35px;
+}
+
+.parrafo {
+    font-family:Roboto,Arial,sans-serif;
+    font-size: 13px;
+}
+
+#btnregistro{
+  font-family:Roboto,Arial,sans-serif;
+  color: rgb(255, 255, 255); 
+}
+/* #231F20 negro terminal 1 blanco #EDE9DD */
+@media screen and (max-width: 800px){
+    .imggif{
+        width: 100%;
+    }
+}
